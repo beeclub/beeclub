@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.h.beeclub.course.biz.dao.CourseCategoryDao">
+
+	<select id="listByParams" parameterType="map" resultType="cn.h.beeclub.course.biz.doamin.CourseCategoryDo">
+		select * from t_course_category t where 1 = 1
+		<if test="keyword != null and keyword != ''">
+			and t.name like CONCAT(#{keyword},'%')
+		</if>
+		<if test="available != null">
+			and t.available = #{available}
+		</if>
+		order by priority
+	</select>
+	
+	
+	<select id="getById"  resultType="cn.h.beeclub.course.biz.doamin.CourseCategoryDo">
+		select * from t_course_category t where t.id = #{id}
+	</select>
+	
+	<insert id="create" parameterType="cn.h.beeclub.course.biz.doamin.CourseCategoryDo">
+		INSERT INTO t_course_category(`name`,pid,priority,available,remark)
+		VALUES( #{name}, #{pid}, #{priority}, true, #{remark, jdbcType=VARCHAR})
+	</insert>
+	
+	<update id="update"  parameterType="cn.h.beeclub.course.biz.doamin.CourseCategoryDo">
+		update t_course_category set 
+		name = #{name}, pid = #{pid}, priority = #{priority}, remark= #{remark, jdbcType=VARCHAR}
+		where id = #{id}
+	</update>
+	
+	
+    
+</mapper>

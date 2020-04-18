@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.h.beeclub.sem.biz.dao.SemPromotionDao">
+	<insert id="create" parameterType="cn.h.beeclub.sem.biz.domain.SemPromotionDo">
+		insert into
+		t_sem_promotion(title,module,url,img,target,priority,on_sale,gmt_create,gmt_update)
+		values (#{title},#{module}, #{url, jdbcType=VARCHAR}, #{img, jdbcType=VARCHAR},#{target},
+		#{priority}, #{onSale}, now(), now())
+	</insert>
+</mapper>

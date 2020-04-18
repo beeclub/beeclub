@@ -1,0 +1,88 @@
+server:
+  port: 7001
+  ssl: 
+    key-store: server.keystore
+    key-alias: tomcat
+    enabled: true
+    key-store-password: huanghao
+    key-store-type: JKS
+
+
+spring:
+  profiles:
+    active:
+      - dev
+    include: biz
+  application:
+    name: beeclub-admin
+
+  thymeleaf:
+    cache: false
+    suffix: .html
+    mode: HTML
+    prefix: classpath:/templates/
+    
+  
+    
+  shiro:
+    excludes: /login,/noAuth,/authFail,/grant-authorization,/common/*,/swagger-ui.html,/swagger-resources/**,/v2/api-docs,/webjars/springfox-swagger-ui/**,/druid/**
+    
+  mvc:
+    throw-exception-if-no-handler-found: true
+  resources:
+   add-mappings: false
+   
+   
+   
+admin:
+  home: https://beeclub-admin.github.io
+   
+
+#path:
+#  images:
+#    course: /course/file
+
+
+   
+swagger:
+  title: spring-boot-starter-swagger
+  description: Starter for swagger 2.x
+  version: 1.1.0.RELEASE
+  termsOfServiceUrl: https://github.com/dyc87112/spring-boot-starter-swagger
+  contact: 
+    name: didi
+    url: http://blog.didispace.com
+  contact.email: dyc87112@qq.com
+  base-package: cn.h.beeclub.admin.member.controller
+  ui-config: 
+    json-editor: false
+    show-request-headers: true
+    request-timeout: 5000
+    submit-methods: get,delete
+
+  #ignored-parameter-types[0]=com.didispace.demo.User
+
+#  global-operation-parameters[0].name=access_token
+#  global-operation-parameters[0].description=user access token
+#  global-operation-parameters[0].modelRef=string
+#  global-operation-parameters[0].parameterType=header
+#  global-operation-parameters[0].required=true
+#  
+#  global-operation-parameters[1].name=timestamp
+#  global-operation-parameters[1].description=access timestamp
+#  global-operation-parameters[1].modelRef=int
+#  global-operation-parameters[1].parameterType=header
+#  global-operation-parameters[1].required=false
+#  
+#  apply-default-response-messages=true
+#  global-response-message.get[0].code=401
+#  global-response-message.get[0].message=401get
+#  global-response-message.get[1].code=500
+#  global-response-message.get[1].message=500get
+#  global-response-message.get[1].modelRef=ERROR
+  
+
+
+
+
+

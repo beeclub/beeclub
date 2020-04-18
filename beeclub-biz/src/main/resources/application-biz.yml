@@ -1,0 +1,19 @@
+mybatis:
+  mapper-locations:
+  - classpath*:mapper/**/*.xml
+  - classpath*:cn/h/beeclub/**/mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+    
+    
+ 
+pagehelper:
+  helperDialect: mysql
+  params: count=countSql
+  reasonable: true
+  supportMethodsArguments: true
+  
+  
+spring:
+  cache:
+    cache-names: c1

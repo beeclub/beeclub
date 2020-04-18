@@ -1,0 +1,71 @@
+package cn.h.beeclub.core.auth;
+
+import cn.h.beeclub.admin.system.entity.SysUser;
+import cn.h.beeclub.admin.system.service.SysPermissionService;
+import cn.h.beeclub.admin.system.service.SysRoleService;
+import cn.h.beeclub.admin.system.service.SysUserService;
+import lombok.extern.slf4j.Slf4j;
+import org.apache.shiro.authc.AuthenticationException;
+import org.apache.shiro.authc.AuthenticationInfo;
+import org.apache.shiro.authc.AuthenticationToken;
+import org.apache.shiro.authc.SimpleAuthenticationInfo;
+import org.apache.shiro.authz.AuthorizationInfo;
+import org.apache.shiro.authz.SimpleAuthorizationInfo;
+import org.apache.shiro.realm.AuthorizingRealm;
+import org.apache.shiro.subject.PrincipalCollection;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import java.util.List;
+
+@Slf4j
+public class ShiroRealm extends AuthorizingRealm {
+
+
+    @Autowired
+    private SysUserService sysUserService;
+    @Autowired
+    private SysRoleService sysRoleService;
+    @Autowired
+    private SysPermissionService sysPermissionService;
+
+    @Override
+    protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principalCollection) {
+        log.info("授权");
+        SimpleAuthorizationInfo authorizationInfo = new SimpleAuthorizationInfo();
+
+        SysUser user = (SysUser) principalCollection.getPrimaryPrincipal();
+
+        try {
+            List<String> roles = sysRoleService.getRolesByUserId(user.getUserId());
+            for (String role : roles){
+                authorizationInfo.addRole(role);
+            }
+
+            List<String> permissions = sysPermissionService.getPermissionsByUserId(user.getUserId());
+            for(String permission : permissions){
+                authorizationInfo.addStringPermission(permission);
+            }
+        }catch (Exception e){
+            log.info("授权失败");
+            e.printStackTrace();
+        }
+        return authorizationInfo;
+    }
+
+    @Override
+    protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken authenticationToken) throws AuthenticationException {
+        log.info("认证");
+
+        String username = (String) authenticationToken.getPrincipal();
+
+        SysUser user = sysUserService.login(username);
+
+        if(user == null){
+            return null;
+        }
+
+        SimpleAuthenticationInfo authenticationInfo = new SimpleAuthenticationInfo(user, "password", getName());
+
+        return authenticationInfo;
+    }
+}

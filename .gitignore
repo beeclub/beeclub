@@ -1,0 +1,12 @@
+**/.idea/
+**/target/
+**/.settings/
+**/.project
+**/*.iml
+**/.factorypath
+**/.classpath
+**/log_debug.log
+**/log_info.log
+**/nmyslog/
+./beeclub-admin/src/main/java/cn/h/beeclub/common/util/OSSClientUtil.java
+./beeclub-admin/src/main/java/cn/h/beeclub/common/util/OSSUtils.java

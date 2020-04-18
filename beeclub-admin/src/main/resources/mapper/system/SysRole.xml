@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="SysRole">
+	<select id="getSysRolesByUserId" parameterType="long" resultType="cn.h.beeclub.admin.system.domain.SysRole">
+		select t.name from t_sys_role t ,t_sys_admin_role r
+			where t.role_id = r.role_id and r.user_id = #{id}
+	</select>
+	
+	
+	<select id="selectAll" resultType ="cn.h.beeclub.admin.system.domain.SysRole">
+		select * from t_sys_role 
+	</select>
+	
+    
+    <select id="getOneById" parameterType="long">
+    	select * from t_sys_role where id = #{id}
+    </select>
+    
+    <delete id="deleteById" parameterType="long">
+    	delete from t_sys_role where id = #{id}
+    </delete>
+    
+    <insert id="insert" useGeneratedKeys="true" keyProperty="id" parameterType="cn.h.beeclub.admin.system.domain.SysRole">
+    	INSERT INTO t_sys_role(id,name,description,available)
+	VALUES (#{id},#{name},#{description},#{available})
+    </insert>
+    
+    <update id="update" parameterType="cn.h.beeclub.admin.system.domain.SysRole">
+    	update t_sys_role set 
+    		name = #{name},
+    		description = #{description},available = #{available}
+    		where id = #{id}
+    </update>
+    
+    <select id="listAll" resultType="cn.h.beeclub.admin.system.domain.SysRole">
+    	select * from t_sys_role 
+    	<!-- <if test="name != null">
+    	</if> -->
+    </select>
+    
+    <delete id="deletePermissionsByRoleId" parameterType="long">
+    	delete from t_sys_role_resource where role_id = #{roleId}
+    </delete>
+    
+    <insert id="insertRoleResource" parameterType="cn.h.beeclub.admin.system.domain.SysRoleResource">
+    	insert into t_sys_role_resource(role_id, resource_id)
+    		values (#{roleId}, #{resourceId})
+    </insert>
+    
+</mapper>

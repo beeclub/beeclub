@@ -1,0 +1,561 @@
+{
+	"_class" : "cn.h.beeclub.course.biz.doamin.CourseMasterDo",
+	"_id" : "128234849969373184",
+	"category" : [
+		NumberInt(19),
+		NumberInt(20),
+		NumberInt(21)
+	],
+	"courseStatus" : "init",
+	"description" : "当下SpringBoot日渐取代SSM成为新项目首选框架，企业招聘对其要求也不断提高。掌握SpringBoot源码将助你高效定位和解决问题，仿写SpringBoot源码将帮你养成规范的代码习惯，轻松应对高标准的企业开发与面试要求。本课程通过图解+仿写教学模式，双管齐下，打造新手都能学得懂的源码课。",
+	"difficulty" : NumberInt(1),
+	"duration" : "0.75",
+	"master" : {
+		
+	},
+	"onlineTime" : ISODate("2019-12-27T00:00:00.000+08:00"),
+	"perid" : NumberInt(1),
+	"peridType" : "hour",
+	"price" : {
+		"free" : false,
+		"originPrice" : "100",
+		"disacountPrice" : "100",
+		"disacountRatio" : "100"
+	},
+	"sort" : NumberLong(1),
+	"subhead" : "图解+仿写 新手都能学懂的全方位深入解析最新版c语言",
+	"tags" : [
+		"新课程"
+	],
+	"thumb" : "http://beeclub.oss-cn-shanghai.aliyuncs.com/course/1577286925460.jpg?Expires=1892646922&OSSAccessKeyId=LTAI4Fv5EmuA9jMfJ79TzGdV&Signature=CYMc1WHLUyg86KqjtGVWLXiX6f8%3D",
+	"title" : "全方位深入解析最新版c语言",
+	"type" : "video"
+},
+{
+	"_class" : "cn.h.beeclub.course.biz.doamin.CourseMasterDo",
+	"_id" : "128234849969373185",
+	"category" : [
+		NumberInt(19),
+		NumberInt(20),
+		NumberInt(25)
+	],
+	"courseStatus" : "init",
+	"description" : "当下SpringBoot日渐取代SSM成为新项目首选框架，企业招聘对其要求也不断提高。掌握SpringBoot源码将助你高效定位和解决问题，仿写SpringBoot源码将帮你养成规范的代码习惯，轻松应对高标准的企业开发与面试要求。本课程通过图解+仿写教学模式，双管齐下，打造新手都能学得懂的源码课。",
+	"difficulty" : NumberInt(1),
+	"duration" : "0.75",
+	"master" : {
+		
+	},
+	"onlineTime" : ISODate("2019-12-27T00:00:00.000+08:00"),
+	"perid" : NumberInt(1),
+	"peridType" : "hour",
+	"price" : {
+		"free" : true,
+		"originPrice" : "0",
+		"disacountPrice" : "0",
+		"disacountRatio" : "100"
+	},
+	"sort" : NumberLong(1),
+	"subhead" : "图解+仿写 新手都能学懂的SpringBoot源码课",
+	"tags" : [
+		"新课程"
+	],
+	"thumb" : "http://beeclub.oss-cn-shanghai.aliyuncs.com/course/1576903665894.jpg?Expires=1892263661&OSSAccessKeyId=LTAI4Fv5EmuA9jMfJ79TzGdV&Signature=ntsyVmDdiXAekGh%2FR5SMNNU6Bk4%3D",
+	"title" : "全方位深入解析最新版SpringBoot源码",
+	"type" : "video"
+},
+{
+	"_class" : "cn.h.beeclub.course.biz.doamin.CourseMasterDo",
+	"_id" : "128234849969373186",
+	"category" : [
+		NumberInt(19),
+		NumberInt(20),
+		NumberInt(25)
+	],
+	"courseStatus" : "init",
+	"description" : "当下SpringBoot日渐取代SSM成为新项目首选框架，企业招聘对其要求也不断提高。掌握SpringBoot源码将助你高效定位和解决问题，仿写SpringBoot源码将帮你养成规范的代码习惯，轻松应对高标准的企业开发与面试要求。本课程通过图解+仿写教学模式，双管齐下，打造新手都能学得懂的源码课。",
+	"difficulty" : NumberInt(1),
+	"duration" : "0.75",
+	"master" : {
+		
+	},
+	"onlineTime" : ISODate("2019-12-27T00:00:00.000+08:00"),
+	"perid" : NumberInt(1),
+	"peridType" : "hour",
+	"price" : {
+		"free" : true,
+		"originPrice" : "0",
+		"disacountPrice" : "0",
+		"disacountRatio" : "100"
+	},
+	"sort" : NumberLong(1),
+	"subhead" : "图解+仿写 新手都能学懂的SpringBoot源码课",
+	"tags" : [
+		"新课程"
+	],
+	"thumb" : "http://beeclub.oss-cn-shanghai.aliyuncs.com/course/1577365089939.jpg?Expires=1892725080&OSSAccessKeyId=LTAI4Fv5EmuA9jMfJ79TzGdV&Signature=9fmiJlo2PooWf8NwXUmg4iN6nh8%3D",
+	"title" : "全方位深入解析最新版SpringBoot源码",
+	"type" : "video"
+},
+{
+	"_class" : "cn.h.beeclub.course.biz.doamin.CourseMasterDo",
+	"_id" : "128234849969373187",
+	"category" : [
+		NumberInt(19),
+		NumberInt(20),
+		NumberInt(25)
+	],
+	"courseStatus" : "init",
+	"description" : "当下SpringBoot日渐取代SSM成为新项目首选框架，企业招聘对其要求也不断提高。掌握SpringBoot源码将助你高效定位和解决问题，仿写SpringBoot源码将帮你养成规范的代码习惯，轻松应对高标准的企业开发与面试要求。本课程通过图解+仿写教学模式，双管齐下，打造新手都能学得懂的源码课。",
+	"difficulty" : NumberInt(1),
+	"duration" : "0.75",
+	"master" : {
+		
+	},
+	"onlineTime" : ISODate("2019-12-27T00:00:00.000+08:00"),
+	"perid" : NumberInt(1),
+	"peridType" : "hour",
+	"price" : {
+		"free" : true,
+		"originPrice" : "0",
+		"disacountPrice" : "0",
+		"disacountRatio" : "100"
+	},
+	"sort" : NumberLong(1),
+	"subhead" : "图解+仿写 新手都能学懂的SpringBoot源码课",
+	"tags" : [
+		"新课程"
+	],
+	"thumb" : "http://beeclub.oss-cn-shanghai.aliyuncs.com/course/1576903665894.jpg?Expires=1892263661&OSSAccessKeyId=LTAI4Fv5EmuA9jMfJ79TzGdV&Signature=ntsyVmDdiXAekGh%2FR5SMNNU6Bk4%3D",
+	"title" : "全方位深入解析最新版SpringBoot源码",
+	"type" : "video"
+},
+{
+	"_class" : "cn.h.beeclub.course.biz.doamin.CourseMasterDo",
+	"_id" : "128234849969373188",
+	"category" : [
+		NumberInt(19),
+		NumberInt(20),
+		NumberInt(25)
+	],
+	"courseStatus" : "init",
+	"description" : "当下SpringBoot日渐取代SSM成为新项目首选框架，企业招聘对其要求也不断提高。掌握SpringBoot源码将助你高效定位和解决问题，仿写SpringBoot源码将帮你养成规范的代码习惯，轻松应对高标准的企业开发与面试要求。本课程通过图解+仿写教学模式，双管齐下，打造新手都能学得懂的源码课。",
+	"difficulty" : NumberInt(1),
+	"duration" : "0.75",
+	"master" : {
+		
+	},
+	"onlineTime" : ISODate("2019-12-27T00:00:00.000+08:00"),
+	"perid" : NumberInt(1),
+	"peridType" : "hour",
+	"price" : {
+		"free" : true,
+		"originPrice" : "0",
+		"disacountPrice" : "0",
+		"disacountRatio" : "100"
+	},
+	"sort" : NumberLong(1),
+	"subhead" : "图解+仿写 新手都能学懂的SpringBoot源码课",
+	"tags" : [
+		"新课程"
+	],
+	"thumb" : "http://beeclub.oss-cn-shanghai.aliyuncs.com/course/1576903665894.jpg?Expires=1892263661&OSSAccessKeyId=LTAI4Fv5EmuA9jMfJ79TzGdV&Signature=ntsyVmDdiXAekGh%2FR5SMNNU6Bk4%3D",
+	"title" : "全方位深入解析最新版SpringBoot源码",
+	"type" : "video"
+},
+{
+	"_class" : "cn.h.beeclub.course.biz.doamin.CourseMasterDo",
+	"_id" : "128234849969373189",
+	"category" : [
+		NumberInt(19),
+		NumberInt(20),
+		NumberInt(25)
+	],
+	"courseStatus" : "init",
+	"description" : "当下SpringBoot日渐取代SSM成为新项目首选框架，企业招聘对其要求也不断提高。掌握SpringBoot源码将助你高效定位和解决问题，仿写SpringBoot源码将帮你养成规范的代码习惯，轻松应对高标准的企业开发与面试要求。本课程通过图解+仿写教学模式，双管齐下，打造新手都能学得懂的源码课。",
+	"difficulty" : NumberInt(1),
+	"duration" : "0.75",
+	"master" : {
+		
+	},
+	"onlineTime" : ISODate("2019-12-27T00:00:00.000+08:00"),
+	"perid" : NumberInt(1),
+	"peridType" : "hour",
+	"price" : {
+		"free" : true,
+		"originPrice" : "0",
+		"disacountPrice" : "0",
+		"disacountRatio" : "100"
+	},
+	"sort" : NumberLong(1),
+	"subhead" : "图解+仿写 新手都能学懂的SpringBoot源码课",
+	"tags" : [
+		"新课程"
+	],
+	"thumb" : "http://beeclub.oss-cn-shanghai.aliyuncs.com/course/1576903665894.jpg?Expires=1892263661&OSSAccessKeyId=LTAI4Fv5EmuA9jMfJ79TzGdV&Signature=ntsyVmDdiXAekGh%2FR5SMNNU6Bk4%3D",
+	"title" : "全方位深入解析最新版SpringBoot源码",
+	"type" : "video"
+},
+{
+	"_class" : "cn.h.beeclub.course.biz.doamin.CourseMasterDo",
+	"_id" : "128234849969373190",
+	"category" : [
+		NumberInt(19),
+		NumberInt(20),
+		NumberInt(25)
+	],
+	"courseStatus" : "init",
+	"description" : "当下SpringBoot日渐取代SSM成为新项目首选框架，企业招聘对其要求也不断提高。掌握SpringBoot源码将助你高效定位和解决问题，仿写SpringBoot源码将帮你养成规范的代码习惯，轻松应对高标准的企业开发与面试要求。本课程通过图解+仿写教学模式，双管齐下，打造新手都能学得懂的源码课。",
+	"difficulty" : NumberInt(1),
+	"duration" : "0.75",
+	"master" : {
+		
+	},
+	"onlineTime" : ISODate("2019-12-27T00:00:00.000+08:00"),
+	"perid" : NumberInt(1),
+	"peridType" : "hour",
+	"price" : {
+		"free" : true,
+		"originPrice" : "0",
+		"disacountPrice" : "0",
+		"disacountRatio" : "100"
+	},
+	"sort" : NumberLong(1),
+	"subhead" : "图解+仿写 新手都能学懂的SpringBoot源码课",
+	"tags" : [
+		"新课程"
+	],
+	"thumb" : "http://beeclub.oss-cn-shanghai.aliyuncs.com/course/1576903665894.jpg?Expires=1892263661&OSSAccessKeyId=LTAI4Fv5EmuA9jMfJ79TzGdV&Signature=ntsyVmDdiXAekGh%2FR5SMNNU6Bk4%3D",
+	"title" : "全方位深入解析最新版SpringBoot源码",
+	"type" : "video"
+},
+{
+	"_class" : "cn.h.beeclub.course.biz.doamin.CourseMasterDo",
+	"_id" : "128234849969373191",
+	"category" : [
+		NumberInt(19),
+		NumberInt(20),
+		NumberInt(25)
+	],
+	"courseStatus" : "init",
+	"description" : "当下SpringBoot日渐取代SSM成为新项目首选框架，企业招聘对其要求也不断提高。掌握SpringBoot源码将助你高效定位和解决问题，仿写SpringBoot源码将帮你养成规范的代码习惯，轻松应对高标准的企业开发与面试要求。本课程通过图解+仿写教学模式，双管齐下，打造新手都能学得懂的源码课。",
+	"difficulty" : NumberInt(1),
+	"duration" : "0.75",
+	"master" : {
+		
+	},
+	"onlineTime" : ISODate("2019-12-27T00:00:00.000+08:00"),
+	"perid" : NumberInt(1),
+	"peridType" : "hour",
+	"price" : {
+		"free" : true,
+		"originPrice" : "0",
+		"disacountPrice" : "0",
+		"disacountRatio" : "100"
+	},
+	"sort" : NumberLong(1),
+	"subhead" : "图解+仿写 新手都能学懂的SpringBoot源码课",
+	"tags" : [
+		"新课程"
+	],
+	"thumb" : "http://beeclub.oss-cn-shanghai.aliyuncs.com/course/1576903665894.jpg?Expires=1892263661&OSSAccessKeyId=LTAI4Fv5EmuA9jMfJ79TzGdV&Signature=ntsyVmDdiXAekGh%2FR5SMNNU6Bk4%3D",
+	"title" : "全方位深入解析最新版SpringBoot源码",
+	"type" : "video"
+},
+{
+	"_class" : "cn.h.beeclub.course.biz.doamin.CourseMasterDo",
+	"_id" : "128234849969373192",
+	"category" : [
+		NumberInt(19),
+		NumberInt(20),
+		NumberInt(25)
+	],
+	"courseStatus" : "init",
+	"description" : "当下SpringBoot日渐取代SSM成为新项目首选框架，企业招聘对其要求也不断提高。掌握SpringBoot源码将助你高效定位和解决问题，仿写SpringBoot源码将帮你养成规范的代码习惯，轻松应对高标准的企业开发与面试要求。本课程通过图解+仿写教学模式，双管齐下，打造新手都能学得懂的源码课。",
+	"difficulty" : NumberInt(1),
+	"duration" : "0.75",
+	"master" : {
+		
+	},
+	"onlineTime" : ISODate("2019-12-27T00:00:00.000+08:00"),
+	"perid" : NumberInt(1),
+	"peridType" : "hour",
+	"price" : {
+		"free" : true,
+		"originPrice" : "0",
+		"disacountPrice" : "0",
+		"disacountRatio" : "100"
+	},
+	"sort" : NumberLong(1),
+	"subhead" : "图解+仿写 新手都能学懂的SpringBoot源码课",
+	"tags" : [
+		"新课程"
+	],
+	"thumb" : "http://beeclub.oss-cn-shanghai.aliyuncs.com/course/1576903665894.jpg?Expires=1892263661&OSSAccessKeyId=LTAI4Fv5EmuA9jMfJ79TzGdV&Signature=ntsyVmDdiXAekGh%2FR5SMNNU6Bk4%3D",
+	"title" : "全方位深入解析最新版SpringBoot源码",
+	"type" : "video"
+},
+{
+	"_class" : "cn.h.beeclub.course.biz.doamin.CourseMasterDo",
+	"_id" : "128234849969373193",
+	"category" : [
+		NumberInt(19),
+		NumberInt(20),
+		NumberInt(25)
+	],
+	"courseStatus" : "init",
+	"description" : "当下SpringBoot日渐取代SSM成为新项目首选框架，企业招聘对其要求也不断提高。掌握SpringBoot源码将助你高效定位和解决问题，仿写SpringBoot源码将帮你养成规范的代码习惯，轻松应对高标准的企业开发与面试要求。本课程通过图解+仿写教学模式，双管齐下，打造新手都能学得懂的源码课。",
+	"difficulty" : NumberInt(1),
+	"duration" : "0.75",
+	"master" : {
+		
+	},
+	"onlineTime" : ISODate("2019-12-27T00:00:00.000+08:00"),
+	"perid" : NumberInt(1),
+	"peridType" : "hour",
+	"price" : {
+		"free" : true,
+		"originPrice" : "0",
+		"disacountPrice" : "0",
+		"disacountRatio" : "100"
+	},
+	"sort" : NumberLong(1),
+	"subhead" : "图解+仿写 新手都能学懂的SpringBoot源码课",
+	"tags" : [
+		"新课程"
+	],
+	"thumb" : "http://beeclub.oss-cn-shanghai.aliyuncs.com/course/1576903665894.jpg?Expires=1892263661&OSSAccessKeyId=LTAI4Fv5EmuA9jMfJ79TzGdV&Signature=ntsyVmDdiXAekGh%2FR5SMNNU6Bk4%3D",
+	"title" : "全方位深入解析最新版SpringBoot源码",
+	"type" : "video"
+},
+{
+	"_class" : "cn.h.beeclub.course.biz.doamin.CourseMasterDo",
+	"_id" : "128234849969373194",
+	"category" : [
+		NumberInt(19),
+		NumberInt(20),
+		NumberInt(25)
+	],
+	"courseStatus" : "init",
+	"description" : "当下SpringBoot日渐取代SSM成为新项目首选框架，企业招聘对其要求也不断提高。掌握SpringBoot源码将助你高效定位和解决问题，仿写SpringBoot源码将帮你养成规范的代码习惯，轻松应对高标准的企业开发与面试要求。本课程通过图解+仿写教学模式，双管齐下，打造新手都能学得懂的源码课。",
+	"difficulty" : NumberInt(1),
+	"duration" : "0.75",
+	"master" : {
+		
+	},
+	"onlineTime" : ISODate("2019-12-27T00:00:00.000+08:00"),
+	"perid" : NumberInt(1),
+	"peridType" : "hour",
+	"price" : {
+		"free" : true,
+		"originPrice" : "0",
+		"disacountPrice" : "0",
+		"disacountRatio" : "100"
+	},
+	"sort" : NumberLong(1),
+	"subhead" : "图解+仿写 新手都能学懂的SpringBoot源码课",
+	"tags" : [
+		"新课程"
+	],
+	"thumb" : "http://beeclub.oss-cn-shanghai.aliyuncs.com/course/1576903665894.jpg?Expires=1892263661&OSSAccessKeyId=LTAI4Fv5EmuA9jMfJ79TzGdV&Signature=ntsyVmDdiXAekGh%2FR5SMNNU6Bk4%3D",
+	"title" : "全方位深入解析最新版SpringBoot源码",
+	"type" : "video"
+},
+{
+	"_class" : "cn.h.beeclub.course.biz.doamin.CourseMasterDo",
+	"_id" : "128234849969373195",
+	"category" : [
+		NumberInt(19),
+		NumberInt(20),
+		NumberInt(25)
+	],
+	"courseStatus" : "init",
+	"description" : "当下SpringBoot日渐取代SSM成为新项目首选框架，企业招聘对其要求也不断提高。掌握SpringBoot源码将助你高效定位和解决问题，仿写SpringBoot源码将帮你养成规范的代码习惯，轻松应对高标准的企业开发与面试要求。本课程通过图解+仿写教学模式，双管齐下，打造新手都能学得懂的源码课。",
+	"difficulty" : NumberInt(1),
+	"duration" : "0.75",
+	"master" : {
+		
+	},
+	"onlineTime" : ISODate("2019-12-27T00:00:00.000+08:00"),
+	"perid" : NumberInt(1),
+	"peridType" : "hour",
+	"price" : {
+		"free" : true,
+		"originPrice" : "0",
+		"disacountPrice" : "0",
+		"disacountRatio" : "100"
+	},
+	"sort" : NumberLong(1),
+	"subhead" : "图解+仿写 新手都能学懂的SpringBoot源码课",
+	"tags" : [
+		"新课程"
+	],
+	"thumb" : "http://beeclub.oss-cn-shanghai.aliyuncs.com/course/1576903665894.jpg?Expires=1892263661&OSSAccessKeyId=LTAI4Fv5EmuA9jMfJ79TzGdV&Signature=ntsyVmDdiXAekGh%2FR5SMNNU6Bk4%3D",
+	"title" : "全方位深入解析最新版SpringBoot源码",
+	"type" : "video"
+},
+{
+	"_class" : "cn.h.beeclub.course.biz.doamin.CourseMasterDo",
+	"_id" : "128234849969373196",
+	"category" : [
+		NumberInt(19),
+		NumberInt(20),
+		NumberInt(25)
+	],
+	"courseStatus" : "init",
+	"description" : "当下SpringBoot日渐取代SSM成为新项目首选框架，企业招聘对其要求也不断提高。掌握SpringBoot源码将助你高效定位和解决问题，仿写SpringBoot源码将帮你养成规范的代码习惯，轻松应对高标准的企业开发与面试要求。本课程通过图解+仿写教学模式，双管齐下，打造新手都能学得懂的源码课。",
+	"difficulty" : NumberInt(1),
+	"duration" : "0.75",
+	"master" : {
+		
+	},
+	"onlineTime" : ISODate("2019-12-27T00:00:00.000+08:00"),
+	"perid" : NumberInt(1),
+	"peridType" : "hour",
+	"price" : {
+		"free" : true,
+		"originPrice" : "0",
+		"disacountPrice" : "0",
+		"disacountRatio" : "100"
+	},
+	"sort" : NumberLong(1),
+	"subhead" : "图解+仿写 新手都能学懂的SpringBoot源码课",
+	"tags" : [
+		"新课程"
+	],
+	"thumb" : "http://beeclub.oss-cn-shanghai.aliyuncs.com/course/1576903665894.jpg?Expires=1892263661&OSSAccessKeyId=LTAI4Fv5EmuA9jMfJ79TzGdV&Signature=ntsyVmDdiXAekGh%2FR5SMNNU6Bk4%3D",
+	"title" : "全方位深入解析最新版SpringBoot源码",
+	"type" : "video"
+},
+{
+	"_class" : "cn.h.beeclub.course.biz.doamin.CourseMasterDo",
+	"_id" : "128234849969373197",
+	"category" : [
+		NumberInt(19),
+		NumberInt(20),
+		NumberInt(25)
+	],
+	"courseStatus" : "init",
+	"description" : "当下SpringBoot日渐取代SSM成为新项目首选框架，企业招聘对其要求也不断提高。掌握SpringBoot源码将助你高效定位和解决问题，仿写SpringBoot源码将帮你养成规范的代码习惯，轻松应对高标准的企业开发与面试要求。本课程通过图解+仿写教学模式，双管齐下，打造新手都能学得懂的源码课。",
+	"difficulty" : NumberInt(1),
+	"duration" : "0.75",
+	"master" : {
+		
+	},
+	"onlineTime" : ISODate("2019-12-27T00:00:00.000+08:00"),
+	"perid" : NumberInt(1),
+	"peridType" : "hour",
+	"price" : {
+		"free" : true,
+		"originPrice" : "0",
+		"disacountPrice" : "0",
+		"disacountRatio" : "100"
+	},
+	"sort" : NumberLong(1),
+	"subhead" : "图解+仿写 新手都能学懂的SpringBoot源码课",
+	"tags" : [
+		"新课程"
+	],
+	"thumb" : "http://beeclub.oss-cn-shanghai.aliyuncs.com/course/1576903665894.jpg?Expires=1892263661&OSSAccessKeyId=LTAI4Fv5EmuA9jMfJ79TzGdV&Signature=ntsyVmDdiXAekGh%2FR5SMNNU6Bk4%3D",
+	"title" : "全方位深入解析最新版SpringBoot源码",
+	"type" : "video"
+},
+{
+	"_class" : "cn.h.beeclub.course.biz.doamin.CourseMasterDo",
+	"_id" : "128234849969373198",
+	"category" : [
+		NumberInt(19),
+		NumberInt(20),
+		NumberInt(25)
+	],
+	"courseStatus" : "init",
+	"description" : "当下SpringBoot日渐取代SSM成为新项目首选框架，企业招聘对其要求也不断提高。掌握SpringBoot源码将助你高效定位和解决问题，仿写SpringBoot源码将帮你养成规范的代码习惯，轻松应对高标准的企业开发与面试要求。本课程通过图解+仿写教学模式，双管齐下，打造新手都能学得懂的源码课。",
+	"difficulty" : NumberInt(1),
+	"duration" : "0.75",
+	"master" : {
+		
+	},
+	"onlineTime" : ISODate("2019-12-27T00:00:00.000+08:00"),
+	"perid" : NumberInt(1),
+	"peridType" : "hour",
+	"price" : {
+		"free" : true,
+		"originPrice" : "0",
+		"disacountPrice" : "0",
+		"disacountRatio" : "100"
+	},
+	"sort" : NumberLong(1),
+	"subhead" : "图解+仿写 新手都能学懂的SpringBoot源码课",
+	"tags" : [
+		"新课程"
+	],
+	"thumb" : "http://beeclub.oss-cn-shanghai.aliyuncs.com/course/1576903665894.jpg?Expires=1892263661&OSSAccessKeyId=LTAI4Fv5EmuA9jMfJ79TzGdV&Signature=ntsyVmDdiXAekGh%2FR5SMNNU6Bk4%3D",
+	"title" : "全方位深入解析最新版SpringBoot源码",
+	"type" : "video"
+},
+{
+	"_class" : "cn.h.beeclub.course.biz.doamin.CourseMasterDo",
+	"_id" : "128234849969373199",
+	"category" : [
+		NumberInt(19),
+		NumberInt(20),
+		NumberInt(25)
+	],
+	"courseStatus" : "init",
+	"description" : "当下SpringBoot日渐取代SSM成为新项目首选框架，企业招聘对其要求也不断提高。掌握SpringBoot源码将助你高效定位和解决问题，仿写SpringBoot源码将帮你养成规范的代码习惯，轻松应对高标准的企业开发与面试要求。本课程通过图解+仿写教学模式，双管齐下，打造新手都能学得懂的源码课。",
+	"difficulty" : NumberInt(1),
+	"duration" : "0.75",
+	"master" : {
+		
+	},
+	"onlineTime" : ISODate("2019-12-27T00:00:00.000+08:00"),
+	"perid" : NumberInt(1),
+	"peridType" : "hour",
+	"price" : {
+		"free" : true,
+		"originPrice" : "0",
+		"disacountPrice" : "0",
+		"disacountRatio" : "100"
+	},
+	"sort" : NumberLong(1),
+	"subhead" : "图解+仿写 新手都能学懂的SpringBoot源码课",
+	"tags" : [
+		"新课程"
+	],
+	"thumb" : "http://beeclub.oss-cn-shanghai.aliyuncs.com/course/1576903665894.jpg?Expires=1892263661&OSSAccessKeyId=LTAI4Fv5EmuA9jMfJ79TzGdV&Signature=ntsyVmDdiXAekGh%2FR5SMNNU6Bk4%3D",
+	"title" : "全方位深入解析最新版SpringBoot源码",
+	"type" : "video"
+},
+{
+	"_class" : "cn.h.beeclub.course.biz.doamin.CourseMasterDo",
+	"_id" : "128234849969373200",
+	"category" : [
+		NumberInt(19),
+		NumberInt(20),
+		NumberInt(25)
+	],
+	"courseStatus" : "init",
+	"description" : "当下SpringBoot日渐取代SSM成为新项目首选框架，企业招聘对其要求也不断提高。掌握SpringBoot源码将助你高效定位和解决问题，仿写SpringBoot源码将帮你养成规范的代码习惯，轻松应对高标准的企业开发与面试要求。本课程通过图解+仿写教学模式，双管齐下，打造新手都能学得懂的源码课。",
+	"difficulty" : NumberInt(1),
+	"duration" : "0.75",
+	"master" : {
+		
+	},
+	"onlineTime" : ISODate("2019-12-27T00:00:00.000+08:00"),
+	"perid" : NumberInt(1),
+	"peridType" : "hour",
+	"price" : {
+		"free" : true,
+		"originPrice" : "0",
+		"disacountPrice" : "0",
+		"disacountRatio" : "100"
+	},
+	"sort" : NumberLong(1),
+	"subhead" : "图解+仿写 新手都能学懂的SpringBoot源码课",
+	"tags" : [
+		"新课程"
+	],
+	"thumb" : "http://beeclub.oss-cn-shanghai.aliyuncs.com/course/1576903665894.jpg?Expires=1892263661&OSSAccessKeyId=LTAI4Fv5EmuA9jMfJ79TzGdV&Signature=ntsyVmDdiXAekGh%2FR5SMNNU6Bk4%3D",
+	"title" : "全方位深入解析最新版SpringBoot源码",
+	"type" : "video"
+},

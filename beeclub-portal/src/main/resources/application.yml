@@ -1,0 +1,18 @@
+server:
+  port: 8088
+#  ssl: 
+#    key-store: server.keystore
+#    key-alias: tomcat
+#    enabled: true
+#    key-store-password: huanghao
+#    key-store-type: JKS
+spring:
+  profiles:
+    active:
+      - dev
+    include: biz
+  application:
+    name: beeclub-portal
+
+          
+

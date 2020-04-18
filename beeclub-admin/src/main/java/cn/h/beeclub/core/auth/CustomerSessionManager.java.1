@@ -1,0 +1,31 @@
+package cn.h.beeclub.core.auth;
+
+import lombok.extern.slf4j.Slf4j;
+import org.apache.shiro.web.servlet.ShiroHttpServletRequest;
+import org.apache.shiro.web.session.mgt.DefaultWebSessionManager;
+import org.apache.shiro.web.util.WebUtils;
+import org.springframework.util.StringUtils;
+
+import javax.servlet.ServletRequest;
+import javax.servlet.ServletResponse;
+import javax.servlet.http.HttpServletRequest;
+import java.io.Serializable;
+
+@Slf4j
+public class CustomerSessionManager extends DefaultWebSessionManager {
+    @Override
+    protected Serializable getSessionId(ServletRequest request, ServletResponse response) {
+        HttpServletRequest httpServletRequest = WebUtils.toHttp(request);
+        String token = httpServletRequest.getHeader("Authorization");
+
+        log.info("Authorization:{}", token);
+
+        if(!StringUtils.isEmpty(token)){
+            request.setAttribute(ShiroHttpServletRequest.REFERENCED_SESSION_ID_SOURCE, "Stateless request");
+            request.setAttribute(ShiroHttpServletRequest.REFERENCED_SESSION_ID, token);
+            request.setAttribute(ShiroHttpServletRequest.REFERENCED_SESSION_ID_IS_VALID, Boolean.TRUE);
+        }
+
+        return super.getSessionId(request, response);
+    }
+}

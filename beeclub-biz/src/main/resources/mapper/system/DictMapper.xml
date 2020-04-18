@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.h.beeclub.system.biz.dao.DictDao">
+
+	<!-- 字典类别 -->
+	<insert id="createDictCategory">
+		INSERT INTO t_dict_category ( `code`, `name`, src_sql, creator,modifier) 
+		VALUES (#{code}, #{name}, #{srcSql}, #{creator}, #{modifier})
+	</insert>
+	
+	<select id="listDictCategory" resultType="cn.h.beeclub.system.biz.domain.DictCategoryDo">
+		select * from t_dict_category t 
+		<if test="available != null">
+		 where available = #{available}
+		</if>
+	</select>
+	
+	
+	
+	<!-- 字典子类 -->
+	<insert id="createDictItem">
+		INSERT INTO t_dict_item(cate_code,`code`,`name`,label,sort,defaulted,creator,modifier) 
+		VALUES (#{cateCode}, #{code}, #{name}, #{label}, #{sort},#{defaulted}, #{creator}, #{modifier})
+	</insert>
+	
+	<select id="listDictItem" resultType="cn.h.beeclub.system.biz.domain.DictItemDo">
+		SELECT * FROM t_dict_item where 1 = 1
+		<if test="cateCode != null">
+		AND cate_code = #{cate_code}
+		</if>
+		<if test="available != null">
+		AND available = #{available}
+		</if>
+	</select>
+
+</mapper>

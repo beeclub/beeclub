@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.h.beeclub.member.biz.dao.MemberMapper">
+
+    <select id="test" resultType="map">
+        select * from t_course_direction
+    </select>
+    
+    <insert id="createMember" parameterType="cn.h.beeclub.member.biz.domain.MemberDo" useGeneratedKeys="true" keyProperty="id">
+    	INSERT INTO t_member(id, email, `password`, nickname, type, register_time)
+		VALUES (#{id}, #{email}, #{password}, #{nickname}, #{type}, NOW())
+    </insert>
+</mapper>
